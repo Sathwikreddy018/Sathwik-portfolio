@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes walk-cycle {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(110%);
+  }
+}
+
+.walk-animation {
+  animation: walk-cycle 5s linear forwards;
+}
